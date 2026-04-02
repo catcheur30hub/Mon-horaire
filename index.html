@@ -1000,8 +1000,8 @@ if(!localStorage.getItem('hockey_mer_v2')){
       if(!extra[dk].includes(lblMer))extra[dk].push(lblMer);
       notes[nkey(dk,lblMer)]='9h30 (Terrebonne)';
     }
-  }
     cur.setDate(cur.getDate()+1);
+  }
   saveAll();
   localStorage.setItem('hockey_mer_v2','1');
 }
